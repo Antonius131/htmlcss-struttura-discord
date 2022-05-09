@@ -10,10 +10,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.row {
+    display: flex;
+    padding: 30px 0px;
+    height: 400px;
+}
+
 .container {
-    max-width: 1024px;
+    max-width: 960px;
     margin: 0 auto;
-    background-color: #DAA520;
 }
 
 
@@ -29,6 +34,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 10px;
+    background-color: #DAA520;
 }
 
 .logo-container {
@@ -44,9 +50,7 @@ header {
     flex-grow: 3;
 }
 
-
 /* navbar style */
-
 
 .nav-container ul{
     display: flex;
@@ -64,4 +68,74 @@ header {
     padding: 5px 10px;
     color: #000;
     text-decoration: none;
+}
+
+
+
+/* sections background style */
+
+.blue-bg-section {
+    padding: 30px;
+    background-color: #18008B;
+}
+
+.dark-grey-bg-section {
+    background-color: #23272A;
+}
+
+.grey-bg-section {
+    background-color: #D3D3D3;
+}
+
+.pink-bg {
+    background-color: #EE81EE;
+    max-width: 60%;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 5px;
+}
+
+
+/* columns style */
+
+.main-col {
+    flex-grow: 2;
+    background-color: #4590FF;
+}
+
+.minor-col {
+    flex-grow: 1;
+    background-color: #F9C0CB;
+}
+
+.reverse-content {
+    flex-direction: row-reverse;
+}
+
+.green-bg-content {
+    padding: 30px 0px;
+}
+
+.green-main-col {
+    background-color: #298B22;
+    height: 500px;
+}
+
+
+
+/* dark grey section */
+
+.dark-pink-col {
+    flex-grow: 1;
+    background-color: #F08080;
+}
+
+.light-green-col {
+    display: flex;
+    flex-grow: 3;
+    background-color: #40B2AA;
+}
+
+.light-green-col .col {
+    width: 25%;
 }
