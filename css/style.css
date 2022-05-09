@@ -139,3 +139,25 @@ header {
 .light-green-col .col {
     width: 25%;
 }
+
+
+
+/* footer style */
+
+footer {
+    background-color: #23272A;
+    padding: 30px;
+    border-top: 1px solid #BEBEBE;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    padding: 10px 0px;
+}
+
+.footer-row div {
+    padding: 10px;
+    background-color: #F9C0CB;
+}
